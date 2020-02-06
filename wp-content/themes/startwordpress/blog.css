@@ -73,6 +73,16 @@ h6, .h6 {
   border-left: 5px solid transparent;
 }
 
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+.blog-nav li a {
+  color: #fff;
+}
+
 
 /*
  * Blog name and description
@@ -88,6 +98,11 @@ h6, .h6 {
   font-size: 60px;
   font-weight: normal;
 }
+
+.blog-title:hover a {
+	text-decoration: none;
+}
+
 .blog-description {
   font-size: 20px;
   color: #999;
@@ -164,3 +179,5 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
