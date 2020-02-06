@@ -12,12 +12,17 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	
+	<?php wp_enqueue_scripts(); ?>
 
     <!-- Custom styles for this template -->
 	<!--     <link href="blog.css" rel="stylesheet"> -->
     
 	<!-- link cusom css with php -->
-	<link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet">
+	<!-- 	<link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet"> -->
+	
+	
+	
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,7 +30,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <?php wp_head(); ?>
-    <![endif]-->
+	      <![endif]-->
   </head>
 
   <body>
