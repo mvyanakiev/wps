@@ -3,10 +3,10 @@
 	<div class="row">
 	<div class="col-sm-12">
 		
- 	<?php		
-			    $args = array(
-    	'post_type' => 'your_post',
-    );
+		<?php		
+		$args = array(
+			'post_type' => 'your_post',
+		);
     $your_loop = new WP_Query( $args );
 
     if ( $your_loop->have_posts() ) : while ( $your_loop->have_posts() ) : $your_loop->the_post();
