@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full-width Template
+ * Template Name: Full-width Template ACF
  * Template Post Type: post, page
  *
  * @package    scaffold
@@ -24,8 +24,9 @@ get_header(); ?>
 
 				<header class="entry-header">
 
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+<!--					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?> -->
 					
+					<h1><?php the_field('newfieldhome'); ?></h1>
 					
 				</header><!-- .entry-header -->
 
