@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full-width Template ACF
+ * Template Name: m-base template
  * Template Post Type: post, page
  *
  * @package    scaffold
@@ -25,8 +25,6 @@ get_header(); ?>
 				<?php scaffold_thumbnail( 'scaffold-full-width' ); ?>
 
 				<header class="entry-header">
-
-<!--					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?> -->
 					
 					<h1><?php the_field('newfieldhome'); ?></h1>
 					

@@ -1,0 +1,28 @@
+/*
+Theme Name: Scaffold Child
+Template: scaffold
+Theme URI: https://olympusthemes.com/themes/scaffold/
+Author: DannyCooper
+Author URI: https://olympusthemes.com/
+Description: Scaffold Child Theme
+Version: 1.3.0
+License: GNU General Public License v2 or later
+Text Domain: scaffold
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, blog, e-commerce
+GitHub Theme URI: https://github.com/DannyCooper/scaffold
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+.menu-1 {
+	background-color: black;
+}
+
+.menu-1 li:hover,
+.menu-1 li.focus {
+	background-color: gray
+}
