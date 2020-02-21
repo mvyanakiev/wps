@@ -26,3 +26,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .menu-1 li.focus {
 	background-color: gray
 }
+
+
+.entry-footer {
+	border-bottom: 0px solid #e4e4e4;
+	border-top: 0px solid #e4e4e4;
+	padding: 0px 0; 
+	margin: 0px;
+	font-size: 12px;
+}
+
+.entry-footer a {
+	text-decoration: underline;
+	color: blue;
+}
+
+.entry-content {
+padding-left: 20px;
+}
+
+.nav-links{
+	font-size: 12px;
+}

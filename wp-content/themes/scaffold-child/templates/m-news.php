@@ -42,8 +42,14 @@ get_header(); ?>
 					
  					<div class="entry-content">
 						<?php the_excerpt(); ?>
-						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div>
+					
+					<div>
+						<a href=" <?php the_permalink(); ?> ">Read More</a>
+					</div>
+					
+					
+					
 					
 				</article>
 				<?php

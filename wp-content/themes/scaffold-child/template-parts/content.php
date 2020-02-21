@@ -17,8 +17,6 @@
 
 	<header class="entry-header">
 	
-
-
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -29,11 +27,13 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 
-			<div class="entry-meta">
+			<!-- <div class="entry-meta">
 				<?php scaffold_posted_on(); ?>
 			</div><!-- .entry-meta -->
 
-		<?php endif; ?>
+		<?php
+		endif; 
+		?>
 
 	</header><!-- .entry-header -->
 
@@ -49,6 +49,7 @@
 		);
 		?>
 	</div><!-- .entry-content -->
+
 
 	<footer class="entry-footer">
 		<?php scaffold_entry_footer(); ?>
